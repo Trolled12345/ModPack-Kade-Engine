@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FNF_Freeplay_Assets.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tabi0000" x="0" y="620" width="309" height="310" pivotX="466.95" pivotY="81.1"/>
+	<SubTexture name="tabi0001" x="309" y="620" width="309" height="310"/>
+	<SubTexture name="agoti0000" x="0" y="930" width="309" height="310" pivotX="466.95" pivotY="81.1"/>
+	<SubTexture name="agoti0001" x="309" y="930" width="309" height="310"/>	
+	<SubTexture name="garcello0000" x="0" y="0" width="309" height="310" pivotX="466.95" pivotY="81.1"/>
+	<SubTexture name="garcello0001" x="309" y="0" width="309" height="310"/>
+	<SubTexture name="zardy0000" x="1236" y="310" width="309" height="310" pivotX="466.95" pivotY="81.1"/>
+	<SubTexture name="zardy0001" x="1545" y="310" width="309" height="310"/>	
+	<SubTexture name="gf0000" x="618" y="0" width="309" height="310" pivotX="466.95" pivotY="81.1"/>
+	<SubTexture name="gf0001" x="927" y="0" width="309" height="310"/>
+	<SubTexture name="mom0000" x="1236" y="0" width="309" height="310" pivotX="466.95" pivotY="81.1"/>
+	<SubTexture name="mom0001" x="1545" y="0" width="309" height="310"/>
+	<SubTexture name="monster0000" x="0" y="310" width="309" height="310" pivotX="466.95" pivotY="81.1"/>
+	<SubTexture name="monster0001" x="309" y="310" width="309" height="310"/>
+	<SubTexture name="parents-christmas0000" x="618" y="310" width="309" height="310" pivotX="466.95" pivotY="81.1"/>
+	<SubTexture name="parents-christmas0001" x="927" y="310" width="309" height="310"/>
+	<SubTexture name="spooky0000" x="618" y="930" width="309" height="310" pivotX="466.95" pivotY="81.1"/>
+	<SubTexture name="spooky0001" x="927" y="930" width="309" height="310"/>
+</TextureAtlas>

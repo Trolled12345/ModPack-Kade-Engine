@@ -1,0 +1,12 @@
+Screenplay:agoti:0
+Parasite:agoti:0
+A.G.O.T.I:agoti-crazy:0
+Guns:agoti:0
+My-Battle:tabi:1
+Last-Chance:tabi:1
+Genocide:tabi-crazy:1
+Headache:garcello:2
+Nerves:garcellotired:2
+Release:garcellodead:2
+Fading:garcelloghosty:2
+Foolhardy-Remix:zardy:3
