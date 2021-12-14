@@ -604,6 +604,48 @@ class PlayState extends MusicBeatState
 			bg.active = false;
 			add(bg);
 		}
+		case 'skeld':
+		{
+			defaultCamZoom = 0.6;
+			curStage = 'skeld';
+
+			notif = new FlxSprite();
+			notif.frames = Paths.getSparrowAtlas('sus/Meeting');
+			notif.animation.addByPrefix('waa', 'emergency intro', 24, false);
+			notif.screenCenter();
+			add(notif);
+			notif.animation.play('waa');
+			notif.animation.finishCallback = function(hello:String)
+				{
+					remove(notif);
+				}
+			var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('sus/SkeldBG'));
+			bg.antialiasing = true;
+			bg.screenCenter();
+			bg.setGraphicSize(Std.int(bg.width * 1.85));
+			add(bg);
+
+			var overlay:FlxSprite = new FlxSprite().loadGraphic(Paths.image('sus/eletrical/void'));
+			overlay.antialiasing = true;
+			overlay.screenCenter();
+			overlay.cameras = [camHUD];
+			add(overlay);
+
+			bgcrew = new FlxSprite();
+			bgcrew.frames = Paths.getSparrowAtlas('sus/BGSus');
+			bgcrew.animation.addByPrefix('idle', 'Group', 24, false);
+			bgcrew.screenCenter();
+			bgcrew.y += 65;
+			bgcrew.antialiasing = true;
+			add(bgcrew);
+
+			sussy = new FlxSprite();
+			sussy.frames = Paths.getSparrowAtlas('sus/Dead Guy Dance Ora ge');
+			sussy.animation.addByPrefix('dance', 'Dead Guy Dance', 24, false);
+			sussy.screenCenter();
+			sussy.antialiasing = true;
+			sussy.y += 375;
+		}
 		default:
 		{
 			defaultCamZoom = 0.9;
