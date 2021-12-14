@@ -32,6 +32,7 @@ class HealthIcon extends FlxSprite
 		animation.add('garcellodead', [22, 23], 0, false, isPlayer);
 		animation.add('garcelloghosty', [24, 25], 0, false, isPlayer);
 		animation.add('zardy', [26, 27], 0, false, isPlayer);		
+		animation.add('Crewmate', [28, 29], 0, false, isPlayer);		
 		
 
 		antialiasing = true;
