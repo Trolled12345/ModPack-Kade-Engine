@@ -754,6 +754,8 @@ class PlayState extends MusicBeatState
 			case 'zardy':
 				camPos.set(dad.getGraphicMidpoint().x, dad.getGraphicMidpoint().y + 240);
 				dad.x -= 80;
+			case 'crew':
+				dad.y += 500;
 		}
 
 
@@ -792,7 +794,12 @@ class PlayState extends MusicBeatState
 				// evilTrail.changeGraphic()
 				// add(evilTrail);
 				// evilTrail.scrollFactor.set(1.1, 1.1);
-				boyfriend.x += 50;			
+				boyfriend.x += 50;	
+			case 'skeld':
+				boyfriend.y += 100;
+				boyfriend.x += 235;
+				dad.x -= 150;
+				gf.y -= 50;
 		}
 
 		add(gf);
@@ -803,6 +810,8 @@ class PlayState extends MusicBeatState
 
 		add(dad);
 		add(boyfriend);
+		case 'skeld':
+			add(sussy);
 		
 		switch (curStage)
 		{
