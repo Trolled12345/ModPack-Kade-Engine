@@ -491,6 +491,31 @@ class Character extends FlxSprite
 				addOffset("singDOWN", 8, -45);
 
 				playAnim('idle');
+			case 'crew':
+				tex = Paths.getSparrowAtlas('sus/Crewmate');
+				frames = tex;
+				animation.addByPrefix('idle', 'idle', 24, false);
+				animation.addByPrefix('singUP', 'up', 24, false);
+				animation.addByPrefix('singRIGHT', 'right', 24, false);
+				animation.addByPrefix('singDOWN', 'down', 24, false);
+				animation.addByPrefix('singLEFT', 'left', 24, false);
+				animation.addByIndices('singLeftHOLD', 'left', [12, 13, 14], "", 24, false);
+				animation.addByIndices('singRightHOLD', 'right', [12, 13, 14], "", 24, false);
+				animation.addByIndices('singUpHOLD', 'up', [12, 13, 14], "", 24, false);
+				animation.addByIndices('singDownHOLD', 'down', [12, 13, 14], "", 24, false);
+
+				addOffset('idle');
+				addOffset("singUP", 70, 80);
+				addOffset("singRIGHT");
+				addOffset("singLEFT", 229, 0);
+				addOffset("singDOWN", 36, -20);
+
+				addOffset("singUpHOLD", 70, 80);
+				addOffset("singRightHOLD");
+				addOffset("singLeftHOLD", 229, 0);
+				addOffset("singDownHOLD", 36, -20);
+
+				playAnim('idle');
 		}
 
 		dance();
